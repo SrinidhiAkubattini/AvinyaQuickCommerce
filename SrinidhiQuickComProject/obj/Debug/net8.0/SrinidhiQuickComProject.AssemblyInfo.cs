@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SrinidhiQuickComProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76e8a4185bb94580ea08d2d752f4a1efa86ce8a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a0e08ba0d57e0e27ff61a36d31f8dd17c789692")]
 [assembly: System.Reflection.AssemblyProductAttribute("SrinidhiQuickComProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SrinidhiQuickComProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

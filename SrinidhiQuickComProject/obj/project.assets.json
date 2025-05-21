@@ -89,9 +89,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Entity.DbLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Entity.DbLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entity.DbLayer.dll": {}
+        }
+      },
       "QickCom.BusinessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entity.DbLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/QickCom.BusinessLayer.dll": {}
         },
@@ -449,6 +462,11 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Entity.DbLayer/1.0.0": {
+      "type": "project",
+      "path": "../Entity.DbLayer/Entity.DbLayer.csproj",
+      "msbuildProject": "../Entity.DbLayer/Entity.DbLayer.csproj"
     },
     "QickCom.BusinessLayer/1.0.0": {
       "type": "project",
