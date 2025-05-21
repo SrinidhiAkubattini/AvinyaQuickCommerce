@@ -1,0 +1,2 @@
+# AvinyaQuickCommerce
+this is repository
